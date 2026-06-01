@@ -22,20 +22,14 @@ public class PrimeCheckTest {
     // ------------------------------------------------------------------------- //
     @Test
     public void testPrimes() {
-        /* Korrigierter Test für Primzahlen */
-        assertEquals("Test 3", true, PrimeCheck.isPrime(3));
-        assertEquals("Test 5", true, PrimeCheck.isPrime(5));
-        assertEquals("Test 7", true, PrimeCheck.isPrime(7));
-        assertEquals("Test 11", true, PrimeCheck.isPrime(11));
+        /* ToDo: insert a test here */
+        assertEquals("this will fail", true, false);
     }
 
     // ------------------------------------------------------------------------- //
     @Test
     public void testNonPrimes() {
-        /* Korrigierter Test für Nicht-Primzahlen */
-        assertEquals("Test 4", false, PrimeCheck.isPrime(4));
-        assertEquals("Test 9", false, PrimeCheck.isPrime(9));
-        assertEquals("Test 15", false, PrimeCheck.isPrime(15));
-        assertEquals("Test 20", false, PrimeCheck.isPrime(20));
+        /* ToDo: insert a test here */
+        assertEquals("this will fail", true, false);
     }
 }
